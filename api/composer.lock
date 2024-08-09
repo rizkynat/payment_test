@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "63b4d507db36eb99972707b12ebb178e",
+    "packages": [
+        {
+            "name": "aditnanda/unofficialbriva",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aditnanda/unofficialbriva.git",
+                "reference": "d927c0cbcadbab7c16058b767a0e0105cafd3a9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aditnanda/unofficialbriva/zipball/d927c0cbcadbab7c16058b767a0e0105cafd3a9c",
+                "reference": "d927c0cbcadbab7c16058b767a0e0105cafd3a9c",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AditNanda\\UnofficialBriva\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "aditnanda",
+                    "email": "aditya.nanda0030@gmail.com"
+                }
+            ],
+            "description": "Unofficial BRI Virtual Account untuk Laravel",
+            "support": {
+                "issues": "https://github.com/aditnanda/unofficialbriva/issues",
+                "source": "https://github.com/aditnanda/unofficialbriva/tree/master"
+            },
+            "time": "2021-06-03T10:16:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "aditnanda/unofficialbriva": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

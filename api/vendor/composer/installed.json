@@ -1,0 +1,47 @@
+{
+    "packages": [
+        {
+            "name": "aditnanda/unofficialbriva",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aditnanda/unofficialbriva.git",
+                "reference": "d927c0cbcadbab7c16058b767a0e0105cafd3a9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aditnanda/unofficialbriva/zipball/d927c0cbcadbab7c16058b767a0e0105cafd3a9c",
+                "reference": "d927c0cbcadbab7c16058b767a0e0105cafd3a9c",
+                "shasum": ""
+            },
+            "time": "2021-06-03T10:16:12+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "AditNanda\\UnofficialBriva\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "aditnanda",
+                    "email": "aditya.nanda0030@gmail.com"
+                }
+            ],
+            "description": "Unofficial BRI Virtual Account untuk Laravel",
+            "support": {
+                "issues": "https://github.com/aditnanda/unofficialbriva/issues",
+                "source": "https://github.com/aditnanda/unofficialbriva/tree/master"
+            },
+            "install-path": "../aditnanda/unofficialbriva"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

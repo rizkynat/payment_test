@@ -1,0 +1,23 @@
+{
+    "name": "aditnanda/unofficialbriva",
+    "description": "Unofficial BRI Virtual Account untuk Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aditnanda",
+            "email": "aditya.nanda0030@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AditNanda\\UnofficialBriva\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

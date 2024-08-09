@@ -1,8 +1,48 @@
 <?php
-
+require_once 'api/vendor/autoload.php';
 use MVC\Controller;
+use AditNanda\UnofficialBriva\Briva;
 
 class ControllersHome extends Controller {
+
+    public $cons_key, $cons_sec; 
+    public $institution_code, $briva_no; 
+    public $base_url = ''; 
+    public function __construct()
+    {
+        $this->cons_key = "2YPEPhSDJEmiytnGY5ZxRebwbUZ4NRKt";    
+        $this->cons_sec = "wwWMaSAbNXvxvdX5";    
+        $this->institution_code = "J104408";    
+        $this->briva_no = "77777";    
+        $BRIVA_PRODUCTION = false; 
+        if (!$BRIVA_PRODUCTION) {
+            $this->base_url = 'https://sandbox.partner.api.bri.co.id/';
+        }   else{
+            $this->base_url = 'https://partner.api.bri.co.id/';
+
+        }
+    }
+
+    public function customerCode() {
+        
+        $briva = new Briva();
+        $array = [
+            'custCode' => '16416516456'
+        ];
+        $result = $briva->BrivaRead($array);
+        return $result;
+    }
+    public function store() {
+        $briva = new Briva();
+        $array = [
+            'custCode' => '16416516456',
+            'nama' => 'Aditya Nanda',
+            'ammount' => '10000',
+            'keterangan' => 'Test',
+            'expiredDate' => '2017-09-10 09:57:26'
+        ];
+        return $briva->BrivaCreate($array);;
+    }
 
     public function index() {
 
