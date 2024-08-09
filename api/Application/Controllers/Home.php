@@ -1,5 +1,5 @@
 <?php
-require_once 'api/vendor/autoload.php';
+require_once dirname(__DIR__, 3) . '/api/vendor/autoload.php';
 use MVC\Controller;
 use AditNanda\UnofficialBriva\Briva;
 

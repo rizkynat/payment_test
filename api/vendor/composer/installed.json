@@ -42,6 +42,6 @@
             "install-path": "../aditnanda/unofficialbriva"
         }
     ],
-    "dev": true,
+    "dev": false,
     "dev-package-names": []
 }
